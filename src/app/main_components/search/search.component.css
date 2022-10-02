@@ -1,0 +1,22 @@
+.header{
+    /* background: darkblue; */
+    border-radius: 5px 5px 0px 0px;
+}
+
+.search-heading{
+    color: white;
+    font-weight: 500;
+}
+
+.full-width {
+    width: -webkit-fill-available;
+}
+
+.submit-button{
+    height: 50px;
+    color: white;
+}
+
+h4{
+    margin-left: 15px;
+}
