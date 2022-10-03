@@ -1,21 +1,21 @@
 
 <div class="container">
 
-    <div class="card m-4">
+    <div class="card mt-4 mb-4">
         <div class="container-fluid header primary-color pl-4">
             <h4 class="mt-3 search-heading">Search Product</h4>
         </div>
         <div class="card-body">
             <form action="">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <mat-form-field class="full-width" appearance="outline">
                             <mat-label>Product Name</mat-label>
                             <input matInput placeholder="Product Name">
                             <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
                         </mat-form-field>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <mat-form-field class="full-width" appearance="outline">
                             <mat-label>category</mat-label>
                             <mat-select>
@@ -25,7 +25,18 @@
                             </mat-select>
                         </mat-form-field>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-3">
+                        <mat-form-field class="full-width" appearance="outline">
+                            <mat-label>Price Range</mat-label>
+                            <mat-select>
+                            <mat-option value="0-500">under 500</mat-option>
+                            <mat-option value="500-1000">500 - 1000</mat-option>
+                            <mat-option value="1000-1500">1000- 1500</mat-option>
+                            <mat-option value="1500-2000">1500- 2000</mat-option>
+                            </mat-select>
+                        </mat-form-field>
+                    </div>
+                    <div class="col-md-3">
                         <button mat-stroked-button class="full-width mt-1 submit-button secondary-color">Submit</button>
                     </div>
                 </div>
