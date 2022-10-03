@@ -25,11 +25,11 @@ export class HomeComponent implements OnInit {
 ];   
 
 imagesForSlider = [
-    {path: '/assets/photo-1444065707204-12decac917e8.jfif'},
-    {path: '/assets/photo-1445452916036-9022dfd33aa8.jfif'},
-    {path: '/assets/photo-1443996104801-80c82e789b18.jfif'},
-    {path: '/assets/photo-1505839673365-e3971f8d9184.jfif'},
-    {path: '/assets/photo-1545420333-23a22b18b8fa.jfif'}
+    {path: 'https://thumbs.dreamstime.com/b/mountain-nature-panorama-dolomites-alps-italy-69046581.jpg'},
+    {path: 'https://wallpapercave.com/wp/wp2532971.jpg'},
+    {path: 'https://wallpapercave.com/wp/wp2068958.jpg'},
+    {path: 'https://wallpaper.dog/large/10991978.jpg'},
+    {path: 'https://images.pexels.com/photos/9754/mountains-clouds-forest-fog.jpg?cs=srgb&dl=pexels-creative-vix-9754.jpg&fm=jpg'}
 ];
 
 
