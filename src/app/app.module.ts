@@ -24,6 +24,7 @@ import { ConfirmationDialogComponent } from './shared/components/confirmation-di
 import { LoadingScreenDialogComponent } from './shared/components/loading-screen-dialog/loading-screen-dialog.component';
 import { AngularMaterialModule } from './modules/material/material.module';
 import { ReactiveFormsModule } from '@angular/forms';
+import { OrderDetailsComponent } from './main_components/order-details/order-details.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     SearchComponent,
     AlertDialogComponent,
     ConfirmationDialogComponent,
-    LoadingScreenDialogComponent
+    LoadingScreenDialogComponent,
+    OrderDetailsComponent
   ],
   imports: [
     BrowserModule,
