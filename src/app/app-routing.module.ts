@@ -4,7 +4,9 @@ import { LoginComponent } from './auth_components/login/login.component';
 import { CheckoutComponent } from './main_components/checkout/checkout.component';
 import { HomeComponent } from './main_components/home/home.component';
 import { OrderDetailsComponent } from './main_components/order-details/order-details.component';
+import { ProductViewComponent } from './main_components/product-view/product-view.component';
 import { ShopingCartComponent } from './main_components/shoping-cart/shoping-cart.component';
+import { ViewAllComponent } from './main_components/view-all/view-all.component';
 
 const routes: Routes = [
   {
@@ -33,6 +35,14 @@ const routes: Routes = [
   {
     path: 'login',
     component: LoginComponent,
+  },
+  {
+    path: 'viewall',
+    component: ViewAllComponent,
+  },
+  {
+    path: 'productdetail',
+    component: ProductViewComponent,
   },
   // {
   //   path: 'seller',

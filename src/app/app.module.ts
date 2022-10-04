@@ -25,6 +25,7 @@ import { LoadingScreenDialogComponent } from './shared/components/loading-screen
 import { AngularMaterialModule } from './modules/material/material.module';
 import { ReactiveFormsModule } from '@angular/forms';
 import { OrderDetailsComponent } from './main_components/order-details/order-details.component';
+import { ViewAllComponent } from './main_components/view-all/view-all.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,8 @@ import { OrderDetailsComponent } from './main_components/order-details/order-det
     AlertDialogComponent,
     ConfirmationDialogComponent,
     LoadingScreenDialogComponent,
-    OrderDetailsComponent
+    OrderDetailsComponent,
+    ViewAllComponent
   ],
   imports: [
     BrowserModule,
