@@ -6,9 +6,9 @@
     "node": "16.17.1",
     "npm": "8.15.0"
      },
-  "postinstall": "ng build --aot --prod",
   "scripts": {
     "ng": "ng",
+    "postinstall": "ng build --aot --prod",
     "start": "node server.js",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
