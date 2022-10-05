@@ -6,6 +6,7 @@ import { HomeComponent } from './main_components/home/home.component';
 import { OrderDetailsComponent } from './main_components/order-details/order-details.component';
 import { ProductViewComponent } from './main_components/product-view/product-view.component';
 import { ShopingCartComponent } from './main_components/shoping-cart/shoping-cart.component';
+import { UserProfileComponent } from './main_components/user-profile/user-profile.component';
 import { ViewAllComponent } from './main_components/view-all/view-all.component';
 
 const routes: Routes = [
@@ -44,6 +45,10 @@ const routes: Routes = [
     path: 'productdetail',
     component: ProductViewComponent,
   },
+  {
+    path: 'userprofile',
+    component: UserProfileComponent,
+  },
   // {
   //   path: 'seller',
   //   component: SellersComponent,
@@ -65,7 +70,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, {scrollPositionRestoration: 'enabled'})],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

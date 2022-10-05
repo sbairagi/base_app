@@ -26,6 +26,7 @@ import { AngularMaterialModule } from './modules/material/material.module';
 import { ReactiveFormsModule } from '@angular/forms';
 import { OrderDetailsComponent } from './main_components/order-details/order-details.component';
 import { ViewAllComponent } from './main_components/view-all/view-all.component';
+import { UserProfileComponent } from './main_components/user-profile/user-profile.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +48,8 @@ import { ViewAllComponent } from './main_components/view-all/view-all.component'
     ConfirmationDialogComponent,
     LoadingScreenDialogComponent,
     OrderDetailsComponent,
-    ViewAllComponent
+    ViewAllComponent,
+    UserProfileComponent
   ],
   imports: [
     BrowserModule,

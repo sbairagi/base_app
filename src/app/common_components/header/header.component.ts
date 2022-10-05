@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -9,9 +10,13 @@ export class HeaderComponent implements OnInit {
 
   toggleOn = false
 
-  constructor() { }
+  constructor(private Router: Router) { }
 
   ngOnInit(): void {
+  }
+
+  gotoCart(){
+    this.Router.navigate(['/cart/'])
   }
 
   // toggle(){

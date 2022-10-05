@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -33,9 +34,13 @@ imagesForSlider = [
 ];
 
 
-  constructor() { }
+  constructor(private Router: Router) { }
 
   ngOnInit(): void {
+  }
+
+  productdetail(){
+    this.Router.navigate(['/productdetail'])
   }
 
   handleCarouselEvents(event:any) {
