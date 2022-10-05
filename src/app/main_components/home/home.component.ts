@@ -43,6 +43,10 @@ imagesForSlider = [
     this.Router.navigate(['/productdetail'])
   }
 
+  gotoViewall(){
+    this.Router.navigate(['/viewall'])
+  }
+
   handleCarouselEvents(event:any) {
     console.log(event);
   }
