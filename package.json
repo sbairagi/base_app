@@ -1,7 +1,7 @@
 {
   "name": "base-app",
   "version": "0.0.0",
-  
+  "private": true,
   "engines": {
     "node": "16.17.1",
     "npm": "8.15.0"
@@ -14,7 +14,6 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "^14.2.0",
     "@angular/cdk": "^14.2.3",
