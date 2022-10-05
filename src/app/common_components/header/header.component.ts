@@ -19,6 +19,10 @@ export class HeaderComponent implements OnInit {
     this.Router.navigate(['/cart/'])
   }
 
+  gotoProfile(){
+    this.Router.navigate(['/userprofile/'])
+  }
+
   // toggle(){
   //   this.hide = this.hide == 'true'? 'false': 'true';
   //   console.log(this.hide)
