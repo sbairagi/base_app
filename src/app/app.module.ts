@@ -27,6 +27,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { OrderDetailsComponent } from './main_components/order-details/order-details.component';
 import { ViewAllComponent } from './main_components/view-all/view-all.component';
 import { UserProfileComponent } from './main_components/user-profile/user-profile.component';
+import { SurveyFormDialogComponent } from './shared/components/survey-form-dialog/survey-form-dialog.component';
 
 @NgModule({
   declarations: [
@@ -49,7 +50,8 @@ import { UserProfileComponent } from './main_components/user-profile/user-profil
     LoadingScreenDialogComponent,
     OrderDetailsComponent,
     ViewAllComponent,
-    UserProfileComponent
+    UserProfileComponent,
+    SurveyFormDialogComponent
   ],
   imports: [
     BrowserModule,

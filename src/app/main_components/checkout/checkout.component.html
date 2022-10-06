@@ -82,7 +82,9 @@
     <section>
   
       <div class="row">
-        <div class="col-md-8">
+        <!-- <div class="col-md-4">
+        <div class="row"> -->
+        <!-- <div class="col-md-8">
           <div class="card mb-4">
   
   
@@ -106,11 +108,8 @@
                   </select>
                 </div>
               </div>
-  
-  
-  
-  
             </div>
+
           </div>
           <div class="card mb-4 accordion" id="accordionExample">
             <div class="card body accordion-item">
@@ -154,7 +153,7 @@
   
             </div>
           </div>
-        </div>
+        </div> -->
         <div class="col-md-4 mb-4 position-static">
           <div class="card mb-4">
             <div class="card-header py-3">
@@ -162,7 +161,22 @@
                   style="font-size: 13px ;">Edit</span></h5>
             </div>
             <div class="card-body">
-              <div class="row">
+              <div class="row m-2">
+                <div class="col-md-4">
+                  <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Vertical/12a.webp"
+                    class="rounded-3" style="width: 100px;" alt="Blue Jeans Jacket" />
+                </div>
+                <div class="col-md-6 ms-3">
+                  <span class="mb-0 text-price">$35.00</span>
+                  <p class="mb-0 text-descriptions">Denim jacket </p>
+                  <span class="text-descriptions fw-bold">Black</span> <span
+                    class="text-descriptions fw-bold">UK 8</span>
+                  <p class="text-descriptions mt-0">Qty:<span class="text-descriptions fw-bold">1</span>
+                  </p>
+                </div>
+              </div>
+              <hr>
+              <div class="row m-2">
                 <div class="col-md-4">
                   <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Vertical/12a.webp"
                     class="rounded-3" style="width: 100px;" alt="Blue Jeans Jacket" />
@@ -193,8 +207,11 @@
   
   
             </div>
+            
           </div>
         </div>
+        <!-- </div>
+        </div> -->
   
         <div class="col-md-8 mb-4">
           <div class="card mb-4">
@@ -255,6 +272,78 @@
                   <label class="form-check-label" for="form11Example8">
                     Create an account?
                   </label>
+                </div>
+
+                <hr class="my-4" />
+
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="checkoutForm1" />
+                  <label class="form-check-label" for="checkoutForm1">
+                    Shipping address is the same as my billing address
+                  </label>
+                </div>
+
+                <div class="form-check mb-4">
+                  <input class="form-check-input" type="checkbox" value="" id="checkoutForm2" checked />
+                  <label class="form-check-label" for="checkoutForm2">
+                    Save this information for next time
+                  </label>
+                </div>
+
+                <hr class="my-4" />
+
+                <h5 class="mb-4">Payment</h5>
+
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="checkoutForm3"
+                    checked />
+                  <label class="form-check-label" for="checkoutForm3">
+                    Credit card
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="checkoutForm4" />
+                  <label class="form-check-label" for="checkoutForm4">
+                    Debit card
+                  </label>
+                </div>
+
+                <div class="form-check mb-4">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="checkoutForm5" />
+                  <label class="form-check-label" for="checkoutForm5">
+                    Paypal
+                  </label>
+                </div>
+
+                <div class="row mb-4">
+                  <div class="col">
+                    <div class="form-outline">
+                      <input type="text" id="formNameOnCard" class="form-control" />
+                      <label class="form-label" for="formNameOnCard">Name on card</label>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="form-outline">
+                      <input type="text" id="formCardNumber" class="form-control" />
+                      <label class="form-label" for="formCardNumber">Credit card number</label>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row mb-4">
+                  <div class="col-3">
+                    <div class="form-outline">
+                      <input type="text" id="formExpiration" class="form-control" />
+                      <label class="form-label" for="formExpiration">Expiration</label>
+                    </div>
+                  </div>
+                  <div class="col-3">
+                    <div class="form-outline">
+                      <input type="text" id="formCVV" class="form-control" />
+                      <label class="form-label" for="formCVV">CVV</label>
+                    </div>
+                  </div>
                 </div>
               </form>
             </div>
