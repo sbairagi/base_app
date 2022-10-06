@@ -23,6 +23,10 @@ export class HeaderComponent implements OnInit {
     this.Router.navigate(['/userprofile/'])
   }
 
+  gotoLogin(){
+    this.Router.navigate(['/login/'])
+  }
+
   // toggle(){
   //   this.hide = this.hide == 'true'? 'false': 'true';
   //   console.log(this.hide)
