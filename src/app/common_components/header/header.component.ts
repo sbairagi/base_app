@@ -15,20 +15,24 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  gotoCart(){
+  gotoHome(){
     this.Router.navigate(['/cart/'])
   }
 
+  gotoCart(){
+    this.Router.navigate(['/cart/']);
+  }
+
   gotoSearch(){
-    this.Router.navigate(['/search/'])
+    this.Router.navigate(['/search/']);
   }
 
   gotoProfile(){
-    this.Router.navigate(['/userprofile/'])
+    this.Router.navigate(['/userprofile/']);
   }
 
   gotoLogin(){
-    this.Router.navigate(['/login/'])
+    this.Router.navigate(['/login/']);
   }
 
   // toggle(){
