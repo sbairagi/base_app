@@ -19,6 +19,10 @@ export class HeaderComponent implements OnInit {
     this.Router.navigate(['/cart/'])
   }
 
+  gotoSearch(){
+    this.Router.navigate(['/search/'])
+  }
+
   gotoProfile(){
     this.Router.navigate(['/userprofile/'])
   }

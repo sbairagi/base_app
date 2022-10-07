@@ -145,7 +145,7 @@
              />
       </a>
       <!-- Search form -->
-      <form class="d-none d-md-flex input-group w-auto my-auto">
+      <!-- <form class="d-none d-md-flex input-group w-auto my-auto">
         <input
                autocomplete="off"
                type="search"
@@ -156,10 +156,21 @@
         <span class="input-group-text border-0"
               ><i class="fas fa-search"></i
           ></span>
-      </form>
+      </form> -->
 
       <!-- Right links -->
       <ul class="navbar-nav ms-auto d-flex flex-row">
+
+        <!-- Search Products -->
+        <li class="nav-item me-3 me-lg-0">
+
+          <!-- <span class="input-group-text border-0"
+              ><i class="fas fa-search"></i
+          ></span> -->
+          <a class="nav-link" (click)="gotoSearch()">
+            <i class="fas fa-search fa-lg" aria-hidden="true"></i>
+          </a>
+        </li>
 
         <!-- Shoping Cart -->
         <li class="nav-item me-3 me-lg-0">
