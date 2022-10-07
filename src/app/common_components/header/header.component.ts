@@ -16,7 +16,7 @@ export class HeaderComponent implements OnInit {
   }
 
   gotoHome(){
-    this.Router.navigate(['/cart/'])
+    this.Router.navigate(['/home/'])
   }
 
   gotoCart(){
