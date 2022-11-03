@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {  HttpClientModule } from '@angular/common/http'
 
 import {IvyCarouselModule} from 'angular-responsive-carousel2';
 import { HeaderComponent } from './common_components/header/header.component';
@@ -59,6 +60,7 @@ import { SurveyFormDialogComponent } from './shared/components/survey-form-dialo
     AngularMaterialModule,
     ReactiveFormsModule,
     BrowserAnimationsModule,
+    HttpClientModule,
     IvyCarouselModule
   ],
   providers: [],

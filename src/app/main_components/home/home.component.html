@@ -5,7 +5,7 @@
 		
 		<div>
 			<!-- <h4 style="margin-left: 20px;" class=""><strong>Deal of the day</strong></h4> -->
-			<div class="row">
+			<div class="row" (click)="category()">
 				<div class="col-lg-12 col-md-12 mb-4">
 					<carousel
 						[images]="imagesForSlider"
@@ -23,7 +23,7 @@
 
 		<!-- <section style="background-color: #eee;"> -->
 			<div>
-			  <h4 class="title" style="margin-left: 20px;"><strong>Product listing</strong></h4>
+			  <h4 class="title" (click)="refreshToken()" style="margin-left: 20px;"><strong>Product listing</strong></h4>
 		  
 			  <div class="row">
 				<div class="col-lg-4 col-md-12 mb-4">

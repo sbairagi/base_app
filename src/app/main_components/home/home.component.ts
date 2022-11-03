@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { AuthServiceService } from 'src/app/shared/services/auth-service.service';
 
 @Component({
   selector: 'app-home',
@@ -34,9 +35,28 @@ imagesForSlider = [
 ];
 
 
-  constructor(private Router: Router) { }
+  constructor(private Router: Router, private authService: AuthServiceService) { }
 
   ngOnInit(): void {
+    this.login()
+  }
+
+  login(){
+    this.authService.login().subscribe(data => {
+      console.log(data);
+    });
+  }
+
+  refreshToken(){
+    this.authService.refreshtoken().subscribe(data => {
+      console.log(data)
+    })
+  }
+
+  category(){
+    this.authService.category().subscribe(data => {
+      console.log(data);
+    });
   }
 
   productdetail(){
